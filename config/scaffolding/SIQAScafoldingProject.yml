@@ -23,6 +23,10 @@ services:
   packages:
   - name: SIQAScafoldingProject
     version: "1.0"
+- serviceName: project.siqascafolding.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBNewInsert
+  packages:
+  - name: SIQAScafoldingProject
+    version: "1.0"
 configurationVariables:
   ? artConnection.SIQAScafoldingProject.project.siqascafolding.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNewAcc.connectionManagerSettings.heartBeatInterval
   : "0"
