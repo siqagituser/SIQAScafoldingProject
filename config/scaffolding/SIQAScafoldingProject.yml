@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SIQAScafoldingProject
+  gitServerName: siqagituser
+  gitUrl: https://github.com/siqagituser/SIQAScafoldingProject
+  gitUsername: siqagituser
+  gitBranch: main
